@@ -1,3 +1,0 @@
-# Getting started
-
-Under construction!
