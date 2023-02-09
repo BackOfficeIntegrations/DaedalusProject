@@ -1,12 +1,34 @@
 # Getting started with DaedalusML
 
-DaedalusML provides a simple interface for setting up an ML training pipeline.  It exclusively relies on HTTP endpoints as a data source.  While the guide provided here is primarily for those users who do not have a publicly exposed API to use as a data source, it contains useful information about the app for all users.  
+DaedalusML provides a simple interface for setting up an ML training pipeline.  It exclusively relies on HTTP endpoints as a data source.  While the guide provided here is primarily for those users who do not have a publicly exposed API to use as a data source, it contains useful information about the app for all users.
+
+**Note:** For beta release users, while most of the steps in this walkthrough will be available to you, to train models you must first be granted access as a beta test user.  To apply for access follow the `Apply For Beta Access` link in the upper-right drop-down menu.
 
 For this walkthrough, I am using Windows with a desktop resolution.  Steps may differ by operating system or device.
 
 ## Contents
 
+[1. Install Prerequisites](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#1-install-prerequisites)
 
+[2. Clone the getting-started repository](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#2-clone-the-getting-started-repository)
+
+[3. Run the Jupyter notebook](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#3-run-the-jupyter-notebook)
+
+[4. (Optional) Inspect the database file with a database management tool](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#4-optional-inspect-the-database-file-with-a-database-management-tool)
+
+[5. Install and run the serve-sqlite DotNet global tool](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#5-install-and-run-the-serve-sqlite-dotnet-global-tool)
+
+[6. Create a public api using Ngrok](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#6-create-a-public-api-using-ngrok)
+
+[7. Create a new ET pipeline](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#7-create-a-new-et-pipeline)
+
+[8. Create a model definition](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#8-create-a-model-definition)
+
+[9. Create an ML pipeline](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#9-create-an-ml-pipeline)
+
+[10. Train a model](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#10-train-a-model)
+
+[11. Download a trained model](https://github.com/BackOfficeIntegrations/DaedalusProject/blob/main/getting-started.md#11-download-a-trained-model)
 
 ## 1. Install Prerequisites
 For this demo, we will be using the following tools:
